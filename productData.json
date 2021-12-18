@@ -1,0 +1,33 @@
+{
+  "prosucts":[{
+    "id":"1",
+    "name":"Milk",
+    "qty":"0",
+    "price":"100"
+  },
+  {
+    "id":"2",
+    "name":"Tea",
+    "qty":"0",
+    "price":"100"
+  },
+  {
+    "id":"3",
+    "name":"Butter",
+    "qty":"0",
+    "price":"100"
+  },
+  {
+    "id":"4",
+    "name":"Cheese",
+    "qty":"0",
+    "price":"100"
+  },
+  {
+    "id":"5",
+    "name":"Maggie",
+    "qty":"0",
+    "price":"100"
+  }
+  ]
+}
