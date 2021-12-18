@@ -1,13 +1,38 @@
 //import {FaTimes} from 'react-icons/fa'
 import Button from "./Button"
-const Product=({product, onDelete, onAddToCart})=> {
+import { Container, Card, Row, Col } from "react-bootstrap"
+const Product = ({ product, onDelete, onAddToCart }) => {
     return (
-        <div className={`task `} >
-            <h3>
-                {product.name} </h3>
-            <p>{product.price}</p>
-            <Button color="grean" onClick={()=>(onAddToCart(product.id))} text="Add to Cart"/>
-        </div>
+
+        <
+        >
+        <
+        Row md = { 5 }
+        sm = { 4 } >
+        <
+        Col >
+        <
+        Card style = {
+            { width: '18rem' }
+        } >
+        <
+        Card.Body >
+        <
+        Card.Title > { product.name } < /Card.Title>  <
+        Card.Text > { product.price } < /Card.Text > <
+        Button color = "blue"
+        onClick = {
+            () => (onAddToCart({ product.id, product.name, product.name }))
+        }
+        text = "Add to Cart" / >
+        <
+        /Card.Body >  < /
+        Card >
+        <
+        /Col> < /
+        Row >
+        <
+        />
     )
 }
 
